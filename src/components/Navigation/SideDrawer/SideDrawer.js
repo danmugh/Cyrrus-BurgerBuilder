@@ -26,7 +26,12 @@ const sideDrawer = ( props ) => {
                 <nav>
                     <NavigationItems isAuthenticated={props.isAuth}/>
                 </nav>
+
+
+                {/*style={{position: 'fixed'}}*/}
+                <p className={classes.signature} >Made with <span>&#128153;</span> by Cyrrus-Labs</p>
             </div>
+
         </Aux>
 
     )
